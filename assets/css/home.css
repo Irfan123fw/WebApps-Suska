@@ -1479,7 +1479,7 @@
   width: 100%
 }
 
-.protocols-section .protocols__logo .logo img {
+.protocols-section .protocols__logo .logo svg {
   height: 100%;
   width: 100%
 }
@@ -1494,18 +1494,8 @@
 
 .protocols-section .protocols__logo:hover {
   opacity: .6;
-  transition: opacity .5s cubic-bezier(.17, .17, .24, 1);
+  transition: opacity .5s cubic-bezier(.17, .17, .24, 1)
 }
-
-.protocols-section .protocols__logo:hover span {
-  display: block;
-  font-size: 20px;
-}
-
-.protocols-section .protocols__logo span {
-  display: none;
-}
-
 
 .protocols-section .protocols__logo img {
   display: block;
